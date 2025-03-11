@@ -1,5 +1,5 @@
 class GameObject {
-    constructor({ position, width = 48, height = 48 }) {
+    constructor({ position = {x : 0, y : 0}, width = 48, height = 48 }) {
         this.position = position;
         this.width = width;
         this.height = height;
