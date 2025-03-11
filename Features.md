@@ -10,7 +10,7 @@
 ### **Specialized Classes**
 
 1. **`TriggerTile`** (extends `Tile`) → Triggers events on collision
-2. **`Sprite`** (extends `Entity`) → Handles rendering and animation
+2. **`Entity`** (extends `Entity`) → Handles rendering and animation
 3. **`Player`** (extends `Sprite`) → Controls the player character
 4. **`NPC`** (extends `Sprite`) → Handles AI/movement logic
 5. **`SceneManager`** → Manages scene transitions
